@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Enterprise Theme Variables */
+:root {
+  --brand-green: #059669;
+  /* Deep, vibrant forest green */
+  --bg-primary: #ffffff;
+  /* Crisp white */
+  --bg-secondary: #f8fafc;
+  /* Cool slate for alternating sections */
+  --text-main: #0f172a;
+  /* Deep charcoal for high-contrast readability */
+  --text-muted: #475569;
+  /* Soft gray for body text */
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+}
